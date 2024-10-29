@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="log_owner.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h2>Sign Up</h2>
+        <form id="signupForm" onsubmit="return validateForm()">
+          <div class="input-field">
+            <input type="text" id="companyname" placeholder="Company Name" required />
+          </div>
+          <div class="input-field">
+            <input type="email" id="email" placeholder="Email" required />
+          </div>
+          <div class="input-field">
+            <input type="number" id="number" placeholder="Number" required />
+          </div>
+          <div class="input-field">
+            <input type="address" id="companyaddress" placeholder="Company Address" required />
+          </div>
+          <div class="input-field">
+            <input
+              type="text"
+              id="pincode"
+              placeholder="Pincode"
+              maxlength="6"
+              required
+            />
+          </div>
+
+          <div class="input-field">
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <div class="input-field">
+            <input
+              type="password"
+              id="confirmPassword"
+              placeholder="Confirm Password"
+              required
+            />
+          </div>
+          <div class="actions">
+            <button type="submit">Sign Up</button>
+          </div>
+        </form>
+        <div class="links">
+          <a href="#">Already a member? Log in</a>
+        </div>
+      </div>
+    </div>
+    <script src="log_owner.js"></script>
+  </body>
+</html>

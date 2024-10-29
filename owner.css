@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: url('icons/wheat.jpeg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3b3b3b;
+  }
+  
+  .logo span {
+    color: #97c42b;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #3b3b3b;
+    font-weight: bold;
+  }
+  
+  .main-content {
+    position: relative;
+    text-align: center;
+    padding: 100px 20px;
+    background: #80AF81(0,128,0,0.2);
+    color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .categories {
+    margin-bottom: 40px;
+  }
+  
+  .category {
+    background-color: #97c42b;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .product {
+    text-align: center;
+  }
+  
+  .product img {
+    
+    width: 100px;
+    height: 100px;
+  }
+  
+  .product span {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #000;
+  }
+  
+  .contact {
+    margin-top: 40px;
+  }
+  
+  .talk-btn {
+    background-color: #fff;
+    color: #97c42b;
+    padding: 10px 20px;
+    border: 2px solid #97c42b;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .talk-btn:hover {
+    background-color: #97c42b;
+    color: white;
+  }
